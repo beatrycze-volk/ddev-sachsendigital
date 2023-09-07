@@ -7,11 +7,12 @@ This repository provides a [DDEV](https://ddev.readthedocs.io/)-based developmen
 1. Clone this repository
    ```bash
    git clone https://github.com/slub/ddev-sachsendigital.git
-   cd ddev-sachsendigital
+   cd /mnt/c/Users/kmiec/Projects/ddev-sachsendigital
    ```
 
 1. Initialize the environment
    ```bash
+   sudo service docker start
    ./scripts/quickstart.sh
    ```
 

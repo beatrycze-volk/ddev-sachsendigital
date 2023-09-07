@@ -181,6 +181,7 @@ return [
             'unifiedPageTranslationHandling' => true,
         ],
         'sitename' => 'Sachsen.Digital',
+        'trustedHostsPattern' => '.*',
         'systemMaintainers' => [
             1,
         ],

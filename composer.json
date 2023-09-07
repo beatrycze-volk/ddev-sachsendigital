@@ -1,20 +1,12 @@
 {
     "repositories": {
+        "local": {
+            "type": "path",
+            "url": "/var/www/extensions/*"
+        },
         "amt-feed-importer": {
             "type": "git",
             "url": "https://github.com/slub/amt_feed_importer.git"
-        },
-        "kitodo-presentation": {
-            "type": "git",
-            "url": "https://github.com/kitodo/kitodo-presentation.git"
-        },
-        "slub-digitalcollections": {
-            "type": "git",
-            "url": "https://github.com/slub/slub_digitalcollections.git"
-        },
-        "slub-web-sachsendigital": {
-            "type": "git",
-            "url": "https://github.com/slub/slub_web_sachsendigital.git"
         },
         "0": {
             "type": "composer",
